@@ -1,6 +1,6 @@
 # Anastasia Savrukhina
 ## **Contacts** 
-* **Phone number:** 7 (953) 291-57-26  
+*  **Phone number:** 7 (953) 291-57-26  
 * **Email address:** assavr0@gmail.com 
 * **Telegram:** [Anastasia](https://t.me/assavrukhina)
 * **Github:** [Anastasia](https://github.com/assavr)
@@ -29,8 +29,10 @@ function findEnd(str, ending){
 
 
 ## **Language**
-* Russian naitve
+* Russian native
 * English B1
+
+
 
 
 
