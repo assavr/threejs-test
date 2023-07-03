@@ -1,0 +1,51 @@
+/* arapey-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Arapey';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/arapey-v16-latin-regular.woff2') format('woff2'); 
+  }
+  html {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Arapey', sans-serif;
+    background-color: #F9F2E8;
+    background: linear-gradient(90deg, rgba(246,242,231,1) 50%, rgba(136,178,228,0.37298669467787116) 100%);
+  }
+.wrapper {
+    width: calc(100vw - 20%);
+    margin: 0 auto;
+    
+}
+
+
+/* Header style start*/
+.header-img {
+    width: 30%;
+    border-radius: 50%;
+    
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.header-content-title {
+    
+    margin: 0;
+    margin-left: 60px;
+    /* style background letters */
+    font-size: 11vw;
+    background: url(../assets/img/fonts-h1.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    
+}
+/* Header style end*/
