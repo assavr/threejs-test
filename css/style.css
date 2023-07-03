@@ -1,0 +1,12 @@
+/* arapey-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Arapey';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/arapey-v16-latin-regular.woff2') format('woff2'); 
+  }
+
+  body {
+    font-family: 'Arapey', sans-serif;
+  }
