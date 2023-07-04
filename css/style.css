@@ -11,18 +11,19 @@
     }
 
   body {
+    margin:0 auto;
     font-family: 'Arapey', sans-serif;
     color: black;
     background-color: #F9F2E8;
     background: linear-gradient(90deg, rgba(246,242,231,1) 50%, rgba(136,178,228,0.37298669467787116) 100%);
   }
 
-  .wrapper-header {
-    width: 100%;
+  .wrapper-max {
+    width: calc(100vw - 10%);
     margin: 0 auto;
   }
 
-.wrapper {
+.wrapper-min {
     width: calc(100vw - 20%);
     margin: 0 auto;
 }
@@ -43,10 +44,10 @@
 }
 
 .header-nav-list-item {
-  flex-basis: 12%;
+  flex-basis: 7%;
   padding: 10px;
   border-radius: 30px;
-  font-size: 32px;
+  font-size: 25px;
   text-align: center;
   background-color: white;
   text-shadow: #ffcc00 1px 0 10px;
