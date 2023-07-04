@@ -6,29 +6,72 @@
     font-weight: 400;
     src: url('../assets/fonts/arapey-v16-latin-regular.woff2') format('woff2'); 
   }
-  html {
-    box-sizing: border-box;
-  }
+    * {
+      box-sizing: border-box;
+    }
+
   body {
     font-family: 'Arapey', sans-serif;
+    color: black;
     background-color: #F9F2E8;
     background: linear-gradient(90deg, rgba(246,242,231,1) 50%, rgba(136,178,228,0.37298669467787116) 100%);
   }
+
+  .wrapper-header {
+    width: 100%;
+    margin: 0 auto;
+  }
+
 .wrapper {
     width: calc(100vw - 20%);
     margin: 0 auto;
-    
 }
 
 
-/* Header style start*/
-.header-img {
+/* Header style start */
+.header {
+  display: flex;
+  margin-top: 20px;
+}
+
+
+.header-nav-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  
+}
+
+.header-nav-list-item {
+  flex-basis: 10%;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 32px;
+  text-align: center;
+  background-color: white;
+  text-shadow: #ffcc00 1px 0 10px;
+  list-style: none;
+}
+
+.header-nav-list-item:hover {
+  text-shadow: #2015b3 1px 0 10px;
+}
+
+.header-nav-link {
+  
+  text-decoration: none;
+  color: black;
+  
+}
+/* Header style end */
+
+/* Main style start*/
+.main-img {
     width: 30%;
     border-radius: 50%;
-    
 }
 
-.header-content {
+.main-name-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,8 +79,7 @@
 
 }
 
-.header-content-title {
-    
+.main-content-title {
     margin: 0;
     margin-left: 60px;
     /* style background letters */
@@ -46,6 +88,5 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    
 }
-/* Header style end*/
+/*  Main style end*/
