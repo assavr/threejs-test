@@ -292,6 +292,7 @@ body {
   list-style: none;
   text-shadow: #ffcc00 1px 0 10px;
   margin-bottom: 20px;
+  transition: .3s;
 }
 .main-projects-list-item:hover {
   text-shadow: #2015b3 1px 0 10px;
