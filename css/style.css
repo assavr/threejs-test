@@ -26,7 +26,7 @@ body {
   font-family: 'Arapey', sans-serif;
   color: black;
   background-color: #F9F2E8;
-  background: linear-gradient(90deg, rgba(246,242,231,1) 74%, rgba(136,178,228,0.5942752100840336) 100%);
+  background: linear-gradient(90deg, rgb(247, 243, 233) 74%, rgba(136,178,228,0.5942752100840336) 100%);
 }
  p {
   margin:0;
@@ -100,7 +100,7 @@ body {
   line-height: 1;
   margin: -9px 0 0;
   padding: 0 3px;
-  background-color: #F9F2E8;
+  background-color: #f7f3e9;
 }
  /* Look as fieldset, but not fieldset */
 
@@ -292,6 +292,7 @@ body {
   list-style: none;
   text-shadow: #ffcc00 1px 0 10px;
   margin-bottom: 20px;
+  transition: .3s;
 }
 .main-projects-list-item:hover {
   text-shadow: #2015b3 1px 0 10px;
