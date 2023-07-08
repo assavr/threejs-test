@@ -284,8 +284,9 @@ body {
 }
 
 .main-code {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 4em;
+  font-weight: 800;
 }
 
 .main-projects-list-item{
