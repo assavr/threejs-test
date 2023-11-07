@@ -1,3 +1,9 @@
+@media (max-width: 1660px) {
+    #code {
+        padding: 10px;
+    }
+}
+
 @media (max-width: 1600px) {
     .fieldset {
         padding: 25px;
@@ -6,7 +12,7 @@
         padding: 10px;
     }
     .main-code {
-        font-weight: 800;
+        font-size: 12px;
     }
     .contacts-title {
         font-size: 20px;
@@ -35,6 +41,15 @@
 }
 
 @media (max-width: 1370px) {
+    .main-img {
+        width: 18%;
+    }
+    .main-content-title{ 
+        font-size: 60px;
+    }
+    .main-position-work-title {
+        font-size: 24px;
+    }
     .contacts-title {
         font-size: 16px;
     }
