@@ -2,10 +2,10 @@
 @font-face {
   font-display: swap;
   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Arapey';
+  font-family: "Arapey";
   font-style: normal;
   font-weight: 400;
-  src: url('../assets/fonts/arapey-v16-latin-regular.woff2') format('woff2');
+  src: url("../assets/fonts/arapey-v16-latin-regular.woff2") format("woff2");
 }
 
 * {
@@ -23,9 +23,13 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: 'Arapey', sans-serif;
-  background-color: #F9F2E8;
-  background: linear-gradient(90deg, rgb(247, 243, 233) 74%, rgba(136, 178, 228, 0.59) 100%);
+  font-family: "Arapey", sans-serif;
+  background-color: #f9f2e8;
+  background: linear-gradient(
+    90deg,
+    rgb(247, 243, 233) 74%,
+    rgba(136, 178, 228, 0.59) 100%
+  );
 }
 
 p {
@@ -55,7 +59,6 @@ li {
   margin: 0 auto;
 }
 
-
 /* Header style start */
 .header {
   display: flex;
@@ -75,7 +78,7 @@ li {
   background-color: white;
   text-shadow: #ffcc00 1px 0 10px;
   list-style: none;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .header-nav-list-item:hover {
@@ -83,7 +86,6 @@ li {
 }
 
 /* Header style end */
-
 
 /* Main style start*/
 /* Look as fieldset, but not fieldset */
@@ -106,8 +108,6 @@ li {
 }
 
 /* Look as fieldset, but not fieldset */
-
-
 
 .main {
   margin-top: 60px;
@@ -143,7 +143,7 @@ li {
 .main-position-work-title {
   text-transform: uppercase;
   font-size: 30px;
-  color: #5c5555
+  color: #5c5555;
 }
 
 .main-info-content {
@@ -176,7 +176,7 @@ li {
   text-align: center;
   text-transform: uppercase;
   font-size: 24px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .skills-item:hover {
@@ -185,22 +185,38 @@ li {
 
 .skills-item-html,
 .skills-item-css {
-  background: linear-gradient(90deg, rgba(175, 201, 232, 1) 30%, rgba(246, 242, 231, 1) 30%);
+  background: linear-gradient(
+    90deg,
+    rgba(175, 201, 232, 1) 30%,
+    rgba(246, 242, 231, 1) 30%
+  );
 }
 
 .skills-item-html:hover,
 .skills-item-css:hover {
   border: 4px solid #ffe787;
-  background: linear-gradient(90deg, rgba(255, 231, 135, 1) 30%, rgba(246, 242, 231, 1) 30%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 231, 135, 1) 30%,
+    rgba(246, 242, 231, 1) 30%
+  );
 }
 
 .skills-item-js {
-  background: linear-gradient(90deg, rgba(175, 201, 232, 1) 10%, rgba(246, 242, 231, 1) 10%);
+  background: linear-gradient(
+    90deg,
+    rgba(175, 201, 232, 1) 10%,
+    rgba(246, 242, 231, 1) 10%
+  );
 }
 
 .skills-item-js:hover {
   border: 4px solid #ffe787;
-  background: linear-gradient(90deg, rgba(255, 231, 135, 1) 10%, rgba(246, 242, 231, 1) 10%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 231, 135, 1) 10%,
+    rgba(246, 242, 231, 1) 10%
+  );
 }
 
 .skills-item-angular:hover,
@@ -209,21 +225,37 @@ li {
 }
 
 .skills-item-git {
-  background: linear-gradient(90deg, rgba(175, 201, 232, 1) 30%, rgba(246, 242, 231, 1) 30%);
+  background: linear-gradient(
+    90deg,
+    rgba(175, 201, 232, 1) 30%,
+    rgba(246, 242, 231, 1) 30%
+  );
 }
 
 .skills-item-git:hover {
   border: 4px solid #ffe787;
-  background: linear-gradient(90deg, rgba(255, 231, 135, 1) 30%, rgba(246, 242, 231, 1) 30%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 231, 135, 1) 30%,
+    rgba(246, 242, 231, 1) 30%
+  );
 }
 
 .skills-item-eng {
-  background: linear-gradient(90deg, rgba(175, 201, 232, 1) 60%, rgba(246, 242, 231, 1) 60%);
+  background: linear-gradient(
+    90deg,
+    rgba(175, 201, 232, 1) 60%,
+    rgba(246, 242, 231, 1) 60%
+  );
 }
 
 .skills-item-eng:hover {
   border: 4px solid #ffe787;
-  background: linear-gradient(90deg, rgba(255, 231, 135, 1) 60%, rgba(246, 242, 231, 1) 60%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 231, 135, 1) 60%,
+    rgba(246, 242, 231, 1) 60%
+  );
 }
 
 /* Main info left end */
@@ -257,7 +289,7 @@ li {
 .contacts-link {
   font-size: 20px;
   text-shadow: #ffcc00 1px 0 10px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .contacts-link:hover {
@@ -308,7 +340,7 @@ li {
 
 .main-projects-link {
   font-size: 24px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 /* Projects block start */
@@ -340,8 +372,6 @@ li {
 /* Main info right end */
 
 /*  Main style end*/
-
-
 
 /* Footer style start */
 .footer {
@@ -388,5 +418,3 @@ li {
 }
 
 /* Footer style end */
-
-

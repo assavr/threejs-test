@@ -1,83 +1,83 @@
 @media (max-width: 1660px) {
-    #code {
-        padding: 10px;
-    }
+  #code {
+    padding: 10px;
+  }
 }
 
 @media (max-width: 1600px) {
-    .fieldset {
-        padding: 25px;
-    }
-    #code {
-        padding: 10px;
-    }
-    .main-code {
-        font-size: 12px;
-    }
-    .contacts-title {
-        font-size: 20px;
-    }
-    .span-about-me {
-        font-size: 16px;
-    }
-    .main-projects-link {
-        font-size: 20px;
-    }
-    .main-education-list-item {
-        font-size: 20px;
-    }
-    .main-language-list-item {
-        font-size: 20px;
-    }
+  .fieldset {
+    padding: 25px;
+  }
+  #code {
+    padding: 10px;
+  }
+  .main-code {
+    font-size: 12px;
+  }
+  .contacts-title {
+    font-size: 20px;
+  }
+  .span-about-me {
+    font-size: 16px;
+  }
+  .main-projects-link {
+    font-size: 20px;
+  }
+  .main-education-list-item {
+    font-size: 20px;
+  }
+  .main-language-list-item {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1480px) {
-    .main-code {
-        font-size: 11px;
-    }
-    .span-about-me {
-        font-size: 15px;
-    }
+  .main-code {
+    font-size: 11px;
+  }
+  .span-about-me {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 1370px) {
-    .main-img {
-        width: 18%;
-    }
-    .main-content-title{ 
-        font-size: 60px;
-    }
-    .main-position-work-title {
-        font-size: 24px;
-    }
-    .contacts-title {
-        font-size: 16px;
-    }
-    .contacts-link {
-        font-size: 18px;
-    }
-    .main-code {
-        font-size: 10px;
-    }
-    .span-about-me {
-        font-size: 14px;
-    }
+  .main-img {
+    width: 18%;
+  }
+  .main-content-title {
+    font-size: 60px;
+  }
+  .main-position-work-title {
+    font-size: 24px;
+  }
+  .contacts-title {
+    font-size: 16px;
+  }
+  .contacts-link {
+    font-size: 18px;
+  }
+  .main-code {
+    font-size: 10px;
+  }
+  .span-about-me {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 1250px) {
-    .main-code {
-        font-size: 9px;
-    }
-    .span-about-me {
-        font-size: 12px;
-    }
-    .main-projects-link {
-        font-size: 18px;
-    }
-    .main-education-list-item {
-        font-size: 18px;
-    }
-    .main-language-list-item {
-        font-size: 18px;
-    }
+  .main-code {
+    font-size: 9px;
+  }
+  .span-about-me {
+    font-size: 12px;
+  }
+  .main-projects-link {
+    font-size: 18px;
+  }
+  .main-education-list-item {
+    font-size: 18px;
+  }
+  .main-language-list-item {
+    font-size: 18px;
+  }
 }
